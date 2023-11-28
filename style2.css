@@ -35,7 +35,6 @@
 header {
     font-family: 'Agrandir-bold', sans-serif;
     letter-spacing: 3px;
-    background-color: #F8F7EB;
 }
 
 .navbar {
@@ -274,8 +273,4 @@ header {
 
 .text-white{
   text-decoration: none;
-}
-
-.body{
-  background-color: #F8F7EB;
 }
