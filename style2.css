@@ -240,7 +240,7 @@ header {
               .owl-carousel .owl-dots .owl-dot:hover, .owl-carousel .owl-dots .owl-dot:focus {
                 outline: none !important; }
               .owl-carousel .owl-dots .owl-dot.active {
-                background: #1089ff; }
+                background: #3093B2; }
           .owl-carousel:hover .owl-nav .owl-prev,
           .owl-carousel:hover .owl-nav .owl-next {
             opacity: 1; }
@@ -253,3 +253,29 @@ header {
           -ms-touch-action: pan-y;
           touch-action: pan-y; }
         
+
+
+  .social-link {
+    color: black;
+
+  }
+
+
+
+  @media (max-width: 767px) {
+    .social-link {
+      color: black;
+    }
+  }
+
+  .text-dark {
+    text-decoration: none;
+}
+
+.text-white{
+  text-decoration: none;
+}
+
+.body{
+  background-color: #F8F7EB;
+}
