@@ -274,3 +274,57 @@ header {
 .text-white{
   text-decoration: none;
 }
+
+.custom-container {
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  max-width: 100%;
+  background: transparent;
+  border: none; 
+}
+
+
+
+.btn-custom {
+  color: white;
+  background-color: #3093B2;
+  transition: background-color 0.3s ease, color 0.3s ease, text-decoration 0.3s ease; 
+
+
+  border: none;
+  padding: 5px 20px; 
+  margin-top: -5px; 
+  cursor: pointer;
+}
+
+.btn-custom:hover,
+.btn-custom:active {
+  background-color: #1f688c; 
+  color: white;
+}
+
+.custom-p {
+  text-align: right;
+  font-family: 'Agrandir', sans-serif;
+  font-size: 20px
+ }
+
+@media (max-width: 768px) {
+  .custom-p {
+   text-align: justify;
+   font-family: 'Agrandir', sans-serif;
+  }
+  }
+
+  .btn-rounded a:hover {
+    color: black;
+  }
+
+  .btn-rounded:hover,
+.btn-rounded:active {
+  background-color: #1f688c;
+  color: black;
+}
