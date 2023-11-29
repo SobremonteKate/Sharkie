@@ -6,13 +6,13 @@
   }
   
   .navbar-nav {
-      text-align: center;   /* make sure the text is centered */
+      text-align: center; 
   }
   
 
 @font-face {
     font-family: 'Agrandir';
-    src: url('Fonts/Agrandir-Regular.otf') format('truetype'); /* Adjust the file path and format as needed */
+    src: url('Fonts/Agrandir-Regular.otf') format('truetype');
     font-weight: normal;
 }
 
